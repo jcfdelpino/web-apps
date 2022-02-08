@@ -1,0 +1,39 @@
+<%
+ranks = [2,3,4,5,6,7,8,9,10,"jack", "queen", "king", "ace"]
+suits = ["clubs", "spades", "hearts", "diamonds"]
+# Novice Version: 
+rank1 = ranks.sample
+rank2 = ranks.sample
+rank3 = ranks.sample
+rank4 = ranks.sample
+rank5 = ranks.sample
+suit1 = suits.sample
+suit2 = suits.sample
+suit3 = suits.sample
+suit4 = suits.sample
+suit5 =  suits.sample
+
+# Better version will be in class notes. Starts as below.
+#deck = []
+#for rank in ranks
+ #   for suit in suitsdeck<<"#{rank}_of_#{suits}"
+  #  end
+#end
+
+%>
+
+<h1> Pick your cards </h1>
+
+<img src="/images/cards/<%=rank1%>_of_<%=suit1%>.svg">
+<img src="/images/cards/<%=rank2%>_of_<%=suit2%>.svg">
+<img src="/images/cards/<%=rank3%>_of_<%=suit3%>.svg">
+<img src="/images/cards/<%=rank4%>_of_<%=suit4%>.svg">
+<img src="/images/cards/<%=rank5%>_of_<%=suit5%>.svg">
+
+
+ <li>First card is <%=rank1%> of <%=suit1%> </li>
+ <li>Second card is <%=rank2%> of <%=suit2%></li>
+ <li>Third card is <%=rank3%> of <%=suit3%></li>
+ <li>Fourth card is <%=rank4%> of <%=suit4%></li>
+ <li>Fifth card is <%=rank5%> of <%=suit5%></li>
+ 
