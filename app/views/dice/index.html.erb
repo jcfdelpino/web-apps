@@ -1,0 +1,20 @@
+<%
+die1 = rand(1..6)
+die2 = rand(1..6)
+total = die1 + die2
+%>
+
+<h1> Roll the dice </h1>
+<p>
+    <img src="/images/dice/3/svg">
+    <img src="/images/dice/4/svg">
+
+<p>
+<%= die1%>
+<%= die2%>
+</p>
+The total is <%= total%>
+</p>
+<p>
+    <a href= "/dice"> Roll Again!</a>
+    </p>
